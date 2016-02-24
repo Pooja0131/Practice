@@ -1,0 +1,109 @@
+body {
+  font-family: arial, sans-serif;
+}
+.logo-search-box {
+  margin: 200px 500px 30px 500px;
+  width: 272px;
+  top: 200px;
+}
+.logo {
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+.search-box {
+  width: 550px;
+  height: 35px;
+  position: absolute;
+  left: 360px;
+  padding: 0px;
+  margin: 0px;
+}
+.mic {
+  opacity: .9;
+  position: relative;
+  left: 370px;
+  margin-top: 5px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+header ul {
+  float: right;
+  margin-top: 20px;
+}
+header ul li {
+  display: inline;
+  margin-right: 15px;
+  line-height: 24px;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header ul li:first-child, header ul li:nth-child(4), header ul li:nth-child(5) {
+  opacity: 0.55;
+}
+.gmail, .images {
+  opacity: 0.85;
+}
+.grid, .nameIcon, .bellIcon {
+  vertical-align: middle;
+}
+.nameIcon {
+  border-radius: 50%;
+}
+header ul li a:first-child:hover, header ul li a:nth-child(2):hover {
+  text-decoration: underline;
+}
+header ul li:nth-child(4):hover, header ul li:nth-child(5):hover {
+  opacity: 1;
+}
+.buttons {
+  display: inline;
+  margin-left: 500px;
+}
+.search-button, .feeling-lucky-button {
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-weight: bold;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 12px;
+}
+.left-ul {
+  float: left;
+}
+.right-ul {
+  float: right;
+}
+footer div ul {
+  padding-left: 0;
+}
+footer div ul li {
+  display: inline;
+  font-size: 13px;
+  opacity: 0.65;
+  margin: 20px;
+}
+footer div ul li a:hover{
+  text-decoration: underline;
+}

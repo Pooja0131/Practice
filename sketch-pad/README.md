@@ -3,5 +3,9 @@
 
 http://www.theodinproject.com/web-development-101/javascript-and-jquery
 
+### How to Use
+* Click http://pooja0131.github.io/Practice/sketch-pad/index.html
+ Enjoy!
+
 ##### Resources
 https://bgrins.github.io/spectrum/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketch Pad</title>
+
+  <link rel="stylesheet" href="css/spectrum.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="website">
+    <div class="header">
+      <div class="input-box">
+        <input id="grid-size-input" class="grid-size-input-box" placeholder="Enter no. of squares per side (2 - 150)" type="number" min="10" max="150" />
+        <!-- <button id="create-btn">Create</button> -->
+        <button id="clear-btn">Clear Canvas</button>
+      </div>
+      <div class="pen-style-box">
+        <input id="grid-border" type="checkbox" name="gridBorder" value="gridBorder" checked><span> Grid Border</span>
+        <input id="trail" type="checkbox" name="trail" value="trail"><span>Trail</span>
+        <input id="random-color" type="checkbox" name="color" value="randomColor" checked><span> Random Color</span>
+        <div id="color-box">
+          <input type='text' id="custom" />
+          <span id="pick-color-tab">Pick Color </span>
+        </div>
+        <!-- <input id="hover" type="checkbox" name="hover" value="hover" checked><span> Continous Line</span>  -->
+      </div>
+    </div>
+
+    <div class="grid-container"></div>
+
+    <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/spectrum.js"></script>
+  </div>
+</body>
+
+</html>

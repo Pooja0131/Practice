@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mint Login Page</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+
+<head>
+  <title>Mint Login Page</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header and form container -->
+  <div class="container">
+    <!-- logo and signin link  -->
     <div class="mint-logo-signin-header">
       <div class="logo">
+        <img src="images/logo.png" height="30" width="75" alt="Mint logo">
       </div>
       <div class="signup-login">
+        <ul class="login-signup-ul">
+          <li class="signupLi">
+            <a href="https://wwws.mint.com/login.event?task=S">Sign up</a>
+          </li>
+          <li>
+            <a href="https://wwws.mint.com/login.event?task=L">Log in</a>
+          </li>
+          <ul>
       </div>
     </div>
+    <!-- form section -->
     <div class="signup">
+      <!-- form left section -->
       <div class="left-section">
         <section class="form-section">
           <h2>See all your finances in one place & create a budget</h2>
           <form class="form">
+            <label for="email">Your Email</label><br>
+            <input type="email" name="email" class="email"><br>
+            <label for="confirm-email">Confirm Email</label><br>
+            <input type="email" name="email" class="email"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" class="password"><span class="lock"><img src="images/lock-open.svg" width="20" height="20" alt="password lock"></span><br>
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" name="password" class="password"><br>
+            <input type="checkbox" name="remember" value="rememberMe" class="remember-checkbox">
+            <label for="rememberMe">Remember me</label><br>
+            <input type="submit" value="SIGN UP" class="signup-button"></input><br>
+            <p>By clicking Sign Up you agree to our <a href="https://www.mint.com/terms" class="terms" target="_blank">Terms of Use</a> and <a href="https://www.mint.com/privacy" class="privacy" target="_blank">Privacy Policy</a></p>
           </form>
         </section>
       </div>
-      <div class="right-section">
-        <h3>Why you'll love it</h3>
-      </div>
+      <!-- form right section -->
+      <sidebar class="right-section">
+        <section class="why-love-list-section">
+          <h3>Why you'll love it</h3>
+          <ul>
+            <li class="right-section-li">See all your accounts in one place</li>
+            <li class="right-section-li">Set a budget and pay down your debt</li>
+            <li class="right-section-li">Find the best ways to grow your money</li>
+            <li class="right-section-li">Stay <a href="https://www.mint.com/privacy" class="safe-secure" target="_blank">safe and secure</a></li>
+          </ul>
+        </section>
+      </sidebar>
     </div>
-  </body>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <ul>
+        <li><a href="https://mint.lc.intuit.com/mint" target="_blank">Support Community </a></li>
+        <li><a href="https://www.mint.com/terms" target="_blank">Terms of Use </a></li>
+        <li><a href="https://www.mint.com/privacy" target="_blank">Privacy </a></li>
+        <li><a href="http://www.intuit.com/legal/" target="_blank">Legal and Trademark Notices  </a></li>
+        <li><a href="http://www.intuit.com/company/" target="_blank">About Intuit </a></li>
+      </ul>
+    </div>
+    <div class="footer-security-links">
+      <ul>
+        <li>
+          <a href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=wwws.mint.com&lang=en"><img src="images/norton-security-logo.svg" width="140" height="60" alt="Norton Security Logo"></a>
+        </li>
+        <li>
+          <a href="http://clicktoverify.truste.com/pvr.php?page=validate&url=www.mint.com&sealid=101"><img src="images/truste-logo.svg" width="140" height="60" alt="Truste Logo"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <p class="copyright">&copy; 2016 Intuit, Inc. | ph7166.4 - spa72.12</p>
+    </div>
+  </footer>
+</body>
+
 </html>

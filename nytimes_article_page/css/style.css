@@ -1,0 +1,109 @@
+/*Sections hamburger icon*/
+.hamburger-icon {
+  background-repeat: no-repeat;
+  background-position: -338px -214px;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+  margin-top: -1px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+/*section button*/
+.section-button {
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.06), inset -1px -1px 1px 0 rgba(0, 0, 0, 0.02);
+  border-bottom-color: #cecece;
+  height: 30px;
+  font-style: normal;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0;
+  padding: 7px 9px;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.button-text {
+  text-transform: uppercase;
+  /*position: static;*/
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  margin-right: 7px;
+  margin-left: 9px;
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+  font-weight: bold;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+/*home button*/
+.home-button {
+  border: none;
+  font-weight: 700;
+  position: relative;
+  height: 30px;
+  border-bottom-color: #cecece;
+  font-style: normal;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  border: none;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0;
+  padding: 7px 9px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+}
+/*search button*/
+.search-button {
+  border: none;
+  font-weight: 700;
+  position: relative;
+  height: 30px;
+  border-bottom-color: #cecece;
+  font-style: normal;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  border: none;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0;
+  padding: 7px 9px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+}
+/*nytimes icon in home button*/
+.nytimes-icon {
+  background-repeat: no-repeat;
+  background-position: -434px -241px;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+  margin-top: -1px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+/*search icon in search button*/
+.search-icon {
+  background-repeat: no-repeat;
+  background-position: -252px -214px;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+  margin-top: -1px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}

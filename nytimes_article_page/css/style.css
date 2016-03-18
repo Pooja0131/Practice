@@ -180,11 +180,14 @@
 }
 
 /*trending nav bar*/
+
 .nav-bar {
   margin-left: 30px;
   padding-top: 10px;
 }
+
 /*trending new ol*/
+
 .trending-news-ol {
   height: 82px;
   border-top: 1px solid #ccc;
@@ -272,6 +275,7 @@
 }
 
 /*Trending tab*/
+
 .collection-marker {
   border-bottom-left-radius: 0;
   position: relative;
@@ -317,4 +321,230 @@
 }
 .label a:hover {
   text-decoration: underline;
+}
+
+/*story page*/
+
+.main-page {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 0;
+  width: 1125px;
+  display: block;
+}
+
+/*story article*/
+
+.story {
+  display: block;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  color: #333;
+  border-top: 1px solid black;
+}
+/*story metadata holder*/
+.story-meta {
+  flex-direction: row;
+  display: flex;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e2e2e2;
+  justify-content: space-between;
+}
+
+/*story category*/
+.category-name {
+  text-transform: uppercase;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  color: #333;
+  font-size: 0.8125rem;
+  line-height: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+.story-category a {
+  text-decoration: none;
+}
+.story-category a:hover {
+  text-decoration: underline;
+}
+
+/*story heading*/
+.story-heading-name {
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-size: 2.125rem;
+  line-height: 2.375rem;
+  font-weight: 700;
+}
+
+/*story's author and date */
+.author-date {
+  float: left;
+}
+.author-date a {
+  text-decoration: none;
+  color: #333;
+}
+.author, .date {
+  font-size: 0.6875rem;
+  line-height: 0.75rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh", georgia, "times new roman", times, serif;
+}
+.date {
+  font-weight: 300;
+}
+
+/*socialmedia sharing tools*/
+.social-sharetools {
+  float: right;
+  width: 210px;
+  height: 26px;
+  display: flex;
+  align-items: baseline;
+}
+.sharetools-ul {
+  width: 216px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sharetools-ul li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: georgia, "times new roman", times, serif;
+}
+.facebook-icon {
+  background-repeat: no-repeat;
+  background-position: -33px -54px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+.facebook-icon:hover {
+  background-repeat: no-repeat;
+  background-position: -85px -54px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+}
+.twitter-icon {
+  background-repeat: no-repeat;
+  background-position: -374px -274px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+.twitter-icon:hover {
+  background-repeat: no-repeat;
+  background-position: -426px -274px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+}
+.email-icon {
+  background-repeat: no-repeat;
+  background-position: -131px -21px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+.email-icon:hover {
+  background-repeat: no-repeat;
+  background-position: -183px -21px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+}
+.more-share-icon {
+  background-repeat: no-repeat;
+  background-position: -143px -241px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+.more-share-icon:hover {
+  background-repeat: no-repeat;
+  background-position: -195px -241px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+}
+.save-tool {
+  margin-right: 0 !important;
+  padding-left: 15px;
+  border-left: 1px solid #e2e2e2;
+}
+.save-icon {
+  background-repeat: no-repeat;
+  background-position: -201px -214px;
+  width: 17px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+  margin-left: 5px;
+}
+.save-icon:hover {
+  background-repeat: no-repeat;
+  background-position: -235px -214px;
+  width: 17px;
+  height: 25px;
+  background-image: url(../images/nytimes-images.svg);
+}
+/*Commnets button currently hidden(commented) in html*/
+.social-sharetools {
+  display: inline-block;
+}
+.comments-button {
+  overflow: visible;
+  transition: color 0.3s;
+  text-transform: uppercase;
+  border: none;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  margin-left: 2px;
+  padding: 0 0 4px 0;
+  color: #666;
+  min-width: 24px;
+  height: 24px;
+}
+.comments-button:before {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 15px;
+  border-width: 6px 0 0 8px;
+  border-style: solid;
+  border-color: #666 transparent;
+  display: block;
+  width: 0;
 }

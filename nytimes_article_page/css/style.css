@@ -583,10 +583,15 @@
 }
 
 /*story body*/
+
 .story-body {
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+.story-part {
+  margin-left: 140px;
+  /*margin-right: auto;*/
 }
 .story-paragraph {
   font-size: 1.25rem;
@@ -597,4 +602,118 @@
 }
 .story-links {
   color: #326891;
+}
+
+/*theory-part*/
+
+.theory-part {
+  width: 1125px;
+  height: 705px;
+}
+
+/*theory image*/
+
+.theory-image {
+  width: 945px;
+  height: 576px;
+}
+
+/*theory caption*/
+
+.theory-image-caption {
+  width: 945px;
+  border-top: 1px solid #e2e2e2;
+}
+.theory-image-caption-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  margin-bottom: 3px;
+}
+.theory-image-caption-desc {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh", georgia, "times new roman", times, serif;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/*image description div*/
+.image-desc {
+  position: relative;
+  width: 228px;
+}
+/*div positions*/
+.div1 {
+  top: -450px;
+  left: 0;
+  /*position: absolute;*/
+  /*top: 3950px;
+    left: 190px;*/
+}
+.div2 {
+  top: -600px;
+  left: 245px;
+  /*position: absolute;*/
+  /*top: 3950px;
+    left: 435px;*/
+}
+.div3 {
+  top: -735px;
+  left: 480px;
+}
+.div4 {
+  top: -870px;
+  left: 720px;
+}
+.div5 {
+  top: -740px;
+  left: 0;
+}
+.div6 {
+  top: -890px;
+  left: 245px;
+}
+.div7 {
+  top: -1040px;
+  left: 480px;
+}
+.div8 {
+  top: -1190px;
+  left: 720px;
+}
+
+.image-desc-p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #666;
+}
+.image-desc-heading {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/*theory image footer */
+.theory-image-footer-credit {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  color: #999;
+}
+.theory-image-footer {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
 }

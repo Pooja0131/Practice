@@ -131,6 +131,7 @@ body {
 }
 
 /*main article*/
+
 .main-article {
   width: 100%;
   height: 630px;
@@ -138,7 +139,9 @@ body {
   top: 40px;
   left: 0;
 }
+
 /*product image*/
+
 .iphone-image {
   width: 50%;
   height: 630px;
@@ -149,6 +152,7 @@ body {
 }
 
 /*product description*/
+
 .iphone-desc {
   width: 45%;
   height: 630px;
@@ -177,7 +181,7 @@ body {
   text-decoration: none;
   color: #08c;
   font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  quotes: "“" "”";
+  /*quotes: "“" "”";*/
   font-size: 24px;
   line-height: 1.3375;
   font-weight: 300;
@@ -193,29 +197,49 @@ body {
   vertical-align: middle;
 }
 
-
 /*promos row section*/
-.promos-row, .promos-ul{
+
+.promos-row, .promos-ul {
   width: 100%;
   height: 200px;
   padding: 0;
 }
-.tiles{
+.tiles {
   display: inline-block;
 }
-.tile1{
+.tile1 {
   position: absolute;
   left: 12px;
 }
-.tile2{
+.tile2 {
   position: absolute;
   left: 326px;
 }
-.tile3{
+.tile3 {
   position: absolute;
   left: 640px;
 }
-.tile4{
+.tile4 {
   position: absolute;
   left: 955px;
+}
+
+/*recall section*/
+.recall-section {
+  width: 100%;
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.recall-section p {
+  margin: 0;
+}
+.recall-link {
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-decoration: none;
+  color: #08c;
+  font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

@@ -1,0 +1,284 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*website header*/
+.website-header {
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 0 6px;
+  background-color: #181818;
+  border-bottom: 1px solid #fff;
+  height: 81px;
+  width: 100%;
+  display: inline-block;
+}
+
+/*logo*/
+.header-logo {
+  float: left;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FF0500;
+  background-image: url("../../newsweek_home_page/images/newsweek-logo-small.png");
+}
+
+/*search-icon*/
+.search-icon {
+  background-size: 22px;
+  background-image: url("../../newsweek_home_page/images/search-12-16.png");
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  float: right;
+  position: relative;
+  right: 80px;
+  background-color: #181818;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+/*hamburger icon*/
+.hamburger-icon {
+  background-image: url("../../newsweek_home_page/images/hamburger-icon.png");
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #D3D3D3;
+  float: right;
+  background-color: #181818;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+/*navigation bar*/
+.header-menu {
+  width: 765px;
+  height: 80px;
+  display: flex;
+}
+/*navigation bar ul*/
+.page-nav {
+  list-style-type: none;
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 0 0 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+/*navigation bar li*/
+.page-nav-items {
+  display: inline;
+  padding-left: 20px;
+  font-weight: bold;
+  /*font-family: "source_sans_probold";*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.page-nav-items a {
+  color: #fff;
+}
+.page-nav-items:last-child {
+  margin-right: 100px;
+}
+
+
+/*navigation bar right side menu*/
+.header-side-menu {
+  width: 385px;
+  height: 80px;
+  display: flex;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header-side-menu-ul {
+  list-style-type: none;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header-side-menu-li {
+  display: inline;
+  font-weight: bold;
+  /*font-family: "source_sans_probold";*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header-side-menu-li:first-child {
+  width: 185px;
+  height: 80px;
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+.s-icon {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.subscribe-icon {
+  margin-top: 20px;
+}
+.subscribe-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+.yellow {
+  color: #F1DF10;
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+.show-desktop {
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+.header-side-menu-li:nth-child(2) {
+  width: 80px;
+  height: 80px;
+}
+.location {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid grey;
+  position: relative;
+  z-index: 2;
+  background-color: #181818;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.location-pin {
+  margin-top: 25px;
+}
+.header-side-menu-li:last-child {
+  width: 120px;
+  height: 80px;
+}
+.sign-in {
+  border-bottom: 4px solid red;
+  width: 120px;
+  background-image: none;
+  font-size: 16px;
+  line-height: 80px;
+  height: 80px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  right: 0;
+  float: right;
+  background-color: #181818;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.header-subscribe {
+  visibility: visible;
+  width: 185px;
+  height: 80px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid transparent;
+  position: relative;
+  z-index: 2;
+  background-color: #181818;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.search-icon {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
+/*Media Queries*/
+/*iphone5*/
+
+@media only screen and (max-width: 480px) {
+  .search-icon {
+    visibility: hidden;
+  }
+  .header-menu {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .header-side-menu {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+/*ipad*/
+/*@media screen and (min-width : 481px) and (max-width : 770px){*/
+@media screen and (min-width: 481px) and (max-width: 1139px) {
+  .search-icon {
+    visibility: visible;
+  }
+  .header-menu {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .header-side-menu, .header-side-menu-ul {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .header-logo {
+    width: 275px;
+    background-image: url("../../newsweek_home_page/images/newsweek-logo.png");
+  }
+}
+
+/*laptop*/
+@media screen and (min-width: 1140px) {
+  .header-logo {
+    width: 80px;
+    background-image: url("../../newsweek_home_page/images/newsweek-logo-small.png");
+  }
+  .header-menu {
+    visibility: visible;
+    width: 765px;
+    height: 80px;
+    display: flex;
+  }
+  .hamburger-icon {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
